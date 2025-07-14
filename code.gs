@@ -8,7 +8,7 @@ function onOpen() {
 
 function addEventsFromSheet() {
   const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-  const calendar = CalendarApp.getCalendarById('family07672556264197668930@group.calendar.google.com'); // カレンダーID
+  const calendar = CalendarApp.getCalendarById(''); // カレンダーID
 
   const data = sheet.getDataRange().getValues();
 
